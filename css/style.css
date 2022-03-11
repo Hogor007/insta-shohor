@@ -35,7 +35,9 @@ textarea {
   --header-height: 44px;
   --nav-height: 44px;
 }
-
+main {
+  min-height: 78vh;
+}
 svg {
   display: block;
 }
@@ -243,6 +245,25 @@ img {
 }
 #reported{
   display: none;
+}
+/* SIGNATURE */
+.footer {
+  width: 100%;
+  background-color: #0b0d17;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px 0px;
+  letter-spacing: 2px;
+}
+.footer p {
+  font-size: 14px;
+}
+#footer-color {
+  color: #df5a65;
+}
+.lime {
+  color: lime;
 }
 
 @media only screen and (max-width: 992px) {
